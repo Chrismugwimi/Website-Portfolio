@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Christopher Mwangi Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Christopher Mwangi Mugwimi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hambuger-nav">
+      <div class="hambuger-nmenu">
+        <div class="hambuger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="togglemenu()">About</a></li>
+          <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+          <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+          <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="section_pic_container">
+        <img
+          src="C:\Users\chris\Desktop\Website/profile.jpg"
+          alt="Christopher's profile picture"
+          class="profile-pic"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Christopher Mwangi Mugwimi</h1>
+        <p class="section__text_p2">Android Developer and Data Enthusiast</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social-container">
+          <img
+            src="C:\Users\chris\Desktop\Website/linkedIn.jpg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/christopher-mwangi-628388242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/'"
+          />
+          <img
+            src="./assets/github.jpg"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Chrismugwimi'"
+          />
+          <img
+            src="./assets/twitter.jpg"
+            alt="My Twitter/X profile"
+            class="icon"
+            onclick="location.href='https://x.com/ChrisMwangi01?t=AerXMuMRsHfqcH25bey0RQ&s=09'"
+          />
+          <img
+            src="./assets/instagram.jpg"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/chrismwangi_8?utm_source=qr&igshid=cm4xaGwxdTdlNnY='"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section_container">
+        <div class="text-container">
+          <p>
+            "I am an Android developer and a data enthusiast. I have developed a
+            sports management app using Java and Firebase as the backend.
+            Additionally, I have completed several data science projects,
+            showcasing my proficiency in analyzing and interpreting complex
+            datasets. I am also skilled in computer troubleshooting and
+            networking."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Android Development</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Java - Intermediate</h3>
+                  <h3>Firebase - Intermediate</h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Python - Experienced</h3>
+                  <h3>Data Analysis - Experienced</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Networking & Troubleshooting</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>Computer Networking - Experienced</h3>
+                  <h3>Computer Troubleshooting - Experienced</h3>
+                  <p></p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <h1>Documents</h1>
+          <div class="details-container">
+          <h2 class="experience-sub-title">Resume</h2>
+          <a href="https://docs.google.com/document/d/1bM8rc3KlLywZKjBXBoW8FMTCspjQIoM7/edit?usp=sharing&ouid=115628055910773637620&rtpof=true&sd=true">Resume</a>
+        </div>
+
+        <div class="details-container">
+            <h2 class="experience-sub-title">Autobiography</h2>
+            <a href="https://docs.google.com/document/d/1V1B3dwyJQAcZqYaI92c_QaxIJd54IHO9/edit?usp=drive_link&ouid=115628055910773637620&rtpof=true&sd=true">Autobiography</a> 
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">The Internet as an invention in Technology</h2>
+        <a href="https://docs.google.com/presentation/d/1VxHodUtBYQmyzTxRgPISZKhi-93yg25X/edit?usp=sharing&ouid=115628055910773637620&rtpof=true&sd=true">The Internet</a> 
+        <a href="https://drive.google.com/file/d/1euqkp-qRKUxm1rsr3feBm4BPBdu8hI3w/view?usp=sharing">Video</a>
+     </div>
+
+     <div class="details-container">
+        <h2 class="experience-sub-title">Agriculture as an aspect of african culture</h2>
+        <a href="https://docs.google.com/presentation/d/1ToJTBBhvN23A4N27sQ3LJyXIWJWkM5pq/edit?usp=sharing&ouid=115628055910773637620&rtpof=true&sd=true">Presentation</a> 
+        <a href="https://drive.google.com/file/d/13Dt4kI-0vOME0xKnDqHfdX5opbmmiYCE/view?usp=sharing">Video</a>
+     </div>
+
+     <div class="details-container">
+        <h2 class="experience-sub-title">Climate change as a challenge in the modern society</h2>
+        <a href="https://docs.google.com/presentation/d/1ToJTBBhvN23A4N27sQ3LJyXIWJWkM5pq/edit?usp=sharing&ouid=115628055910773637620&rtpof=true&sd=true">Presentation</a>
+        <a href="https://drive.google.com/file/d/1kCgyTrkLI-Rux3TGlEjlOBp28IChysab/view?usp=drive_link">Video</a>
+     </div>
+
+     
+     <div class="details-container">
+        <h2 class="experience-sub-title">Drought in Kenya</h2>
+        <a href="https://docs.google.com/presentation/d/1ToJTBBhvN23A4N27sQ3LJyXIWJWkM5pq/edit?usp=sharing&ouid=115628055910773637620&rtpof=true&sd=true">Photographic Essay</a> 
+     </div>
+     
+  </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="C:\Users\chris\Desktop\Website/project.jpg"
+                alt="Project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title">"Sports Management App"</h2>
+            <p class="project-description">
+              A comprehensive sports management app developed using Java, with
+              Firebase as the backend. This app manages various sports
+              activities, events, and participant details efficiently.
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn-color-2"
+                onclick="location.href='https://github.com/ChrisMwangi01/sports-management-app'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <!-- Additional projects can be added in similar blocks -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="C:\Users\chris\Desktop\Website/.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="chrismugwimi01@gmail.com"
+              >Email</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedIn.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedIn"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/christopher-mwangi-628388242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/twitter.png"
+            alt="Twitter/X icon"
+            class="icon contact-icon twitter-icon"
+          />
+          <p>
+            <a href="https://x.com/ChrisMwangi01?t=AerXMuMRsHfqcH25bey0RQ&s=09"
+              >Twitter/X</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            href="src"
+            ="instagram.png"
+            alt="Instagram icon"
+            class="icon contact-icon instagram-icon"
+          />
+          <p>
+            <a
+              href="https://www.instagram.com/chrismwangi_8?utm_source=qr&igshid=cm4xaGwxdTdlNnY="
+              >Instagram</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Christopher Mwangi Mugwimi. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      function togglemenu() {
+        let menulinks = document.querySelector(".menu-links");
+        menulinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
